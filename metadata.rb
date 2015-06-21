@@ -6,7 +6,7 @@ description 'Installs/Configures JBoss 7.3'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version '2.0.0'
 
-recipe 'jboss', 'installs jboss from the jboss community site'
+recipe 'setup', 'installs jboss from the jboss community site'
 
 %w(centos).each do |os|
   supports os
